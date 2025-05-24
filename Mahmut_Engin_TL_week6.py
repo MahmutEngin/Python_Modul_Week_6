@@ -114,4 +114,19 @@ if __name__ == "__main__":
     tracker.get_task_info(1)
     tracker.get_task_info(2)
        
-  
+#   Task II
+"""
+
++--------------------+           +----------------+
+|    NoteManager     |           |      Note      |
++--------------------+           +----------------+
+| - notes: List<Note>|◄◄◄◄◄◄◄◄◄| - title: str    |
+|                    |           | - content: str |
+|                    |           | - created_at   |
++--------------------+           +----------------+
+| + add_note(note)   |           | + display()    |
+| + remove_note(t)   |           | + edit_content |
+| + find_note(t)     |           +----------------+
++--------------------+
+
+"""
